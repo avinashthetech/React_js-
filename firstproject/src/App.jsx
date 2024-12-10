@@ -7,11 +7,14 @@
 // import { Parent } from "./props/Parent";
 // import { PropsDrillingParent } from "./propsdrilling/PropsDrillingParent";
 
-import { Profile } from "./images/Profile";
-import { Footer } from "./reactCss/Footer";
+import { ControlledForm2 } from "./forms/ControlledForm2";
+
+// import { ControlledForms1 } from "./forms/ControlledForms1";
+
+// import { Profile } from "./images/Profile";
+// import { Footer } from "./reactCss/Footer";
+// import { FlipkartNav } from "./task1/FlipkartNav";
 // import InlineCSS from "./reactCss/InlineCSS";
-
-
 
 
 const App=()=>{
@@ -35,10 +38,15 @@ const App=()=>{
 
         {/* <InlineCSS/> */}
         {/* <h2>CSS  module</h2> */}
-        <Footer/>
+        {/* <Footer/>
 
-        <Profile/>
+        <Profile/> */}
 
+        {/* <FlipkartNav/> */}
+        {/* <ControlledForms1/> */}
+        
+        
+        <ControlledForm2/>
 
 
         

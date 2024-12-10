@@ -72,6 +72,7 @@ return
 
 A.jsx data=[10,20,30]
 <B dbData={data}/>
+
 B.jsx
 const B=( parameter)=>{
     console.log(parameter)
@@ -103,3 +104,43 @@ Css in React
 yeh sab me km aaye  g-->
 # midule css 
 reactCss-->Footer.jsx as well as Footer.css file bhi creted
+
+
+
+# forms 
+1. controlled (virtual dom)
+2. Uncontrolled (Real dom)
+
+
+# why are used from {
+    <!-- acces the data from user -->
+    <!-- user se data lene ke liya -->
+}
+
+
+
+    let handleUsername =(e)=>{
+        console.log(e);
+    }
+ # synthetic base event (object )    object ko access krnr key dot key word use krte hai         <!-- setUsername(e.target.value); -->
+
+userName { a b c d}
+all data {value} state me save ho raha hai
+
+<!-- btn me on onClick use kr skte hai  -->
+
+
+# synthetic and non synthetic
+
+# controll form pe jao kaise bhi kyuki bahut km aata hai 
+
+#         Controlled Form -optimal way 
+
+<!-- 
+let name="useremail"
+
+{[name]:"xyz"}           userenail:xyz  -->
+
+
+
+<!-- ...formData,[name]:value   previous data ko access krn ke liya -->
