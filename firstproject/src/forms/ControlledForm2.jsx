@@ -1,10 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import  style from  "./controlledForm2.module.css";
 
 export const ControlledForm2 = () => {
   let [formData, setFormData] = useState(
     { useremail: "",
      userpassword: "" ,
+     username: " ",
     });
 
   let handleFormData = (e) => {
@@ -15,15 +17,17 @@ export const ControlledForm2 = () => {
   };
   let formSubmit=(e)=>{
     e.preventDefault();
+    console.log(e);
     console.log(formData);
 }
   return (
-    <div>
+    <div className={style.controlled}>
       <h1>Controlled Form -optimal way</h1>
 
       <form onSubmit={formSubmit}>
-        {/* <label>Username : </label>
-        <input type="text" /> */}
+        <label>Username : </label>
+        <input type="text" 
+        value={formData.username} onChange={handleFormData} name="username"/> 
         <br />
         <br />
         <label>Useremail : </label>

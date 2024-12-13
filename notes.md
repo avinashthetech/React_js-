@@ -144,3 +144,12 @@ let name="useremail"
 
 
 <!-- ...formData,[name]:value   previous data ko access krn ke liya -->
+
+
+
+
+  App.jsx {call-->TodoWrapper}
+
+# TodoWrapper
+1. CreateTodo
+2. AllTodo
