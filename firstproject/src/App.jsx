@@ -14,6 +14,12 @@ import { useState } from "react";
 // import { FechApi } from "./useeffect/FechApi";
 // import { FetchApi2 } from "./useeffect/FetchApi2";
 import { ContextParent } from "./context/ContextParent";
+import { Reducer } from "./Reducer/Reducer";
+import { Products1 } from "./customHooks/Products1";
+import  Parent  from "./HOC/Parent";
+import { Profile } from "./context/Profile";
+import { InputUser } from "./context/InputUser";
+import MemoParent from "./memo/MemoParent";
 
 
 // import { UnControlledForms } from "./forms/UnControlledForms";
@@ -27,9 +33,7 @@ import { ContextParent } from "./context/ContextParent";
 // import { Footer } from "./reactCss/Footer";
 // import { FlipkartNav } from "./task1/FlipkartNav";
 // import { Component } from 'react';
-// InlineCSS from "./reactCss/InlineCSS";
-
-
+// import Product from './../../Qspder_project/ecommerce-site/src/components/Product';
 
 const App = () => {
   let [toggle, setToggle] = useState(false);
@@ -75,7 +79,25 @@ const App = () => {
       {toggle ? <SideEffects2/>:<h1>No Component</h1>} */}
 {/* <FechApi/> */}
 {/* <FetchApi2/> */}
-<ContextParent/>
+{/* <ContextParent/> */}
+
+
+
+{/* <Profile>
+  <InputUser/>
+  
+</Profile> */}
+
+
+
+{/* <Products/> */}
+{/* <Products1/> */}
+
+
+
+{/* <Reducer/> */}
+{/* <Parent/> */}
+<MemoParent/>
 
     </div>
   );

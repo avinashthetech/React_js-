@@ -130,8 +130,9 @@ Css in React
 # global css
 <!-- ple hm log src me file created krne bad index yeh App me import kre ge
 yeh sab me km aaye  g-->
-# midule css 
+# module css 
 reactCss-->Footer.jsx as well as Footer.css file bhi creted
+filename.module.css
 
 
 
@@ -299,3 +300,65 @@ This hook allows you to add state to functional components. It returns a pair: t
 # Props drilling
 <!-- 
 Props drilling is the practice of passing data from a parent component to deeply nested child components via props, even if some of the intermediate components don't need the data themselves -->
+
+
+ 
+<!-- hoc -->
+
+
+const Parent=()=>{
+  <!-- let data='hello'; -->
+  return (
+    <div>
+    
+    <!-- <Child data={data}/> </div> -->
+
+
+  # using HOC
+    <Child data=/> </div>
+
+  )
+}
+--------------------------------------------
+
+
+const Child=(x)=>{
+  return (
+    <div></div>
+  )
+}
+
+export defult Hoc(Child) 
+------------------------------------------
+const Hoc=(WrappedComp)=>{
+
+  let data='hello';
+  return ()=>{
+    return <WrappedComp data={data}/>
+  }
+
+
+}
+export defult Hoc
+
+<!-- 
+hoc ek function jo return krt anynomus function aur yeh WrappedComp return kre g -->
+
+<!-- export default me { } use nhi kre -->
+
+
+# UseMemo 
+<!-- proformance optination hook which is  use for increase the performance -->
+
+
+
+install vite
+new React project==>vite
+1. npm i vite -g (firsttime)
+2. npm create vite@latest
+
+ProjectName:browserrouter
+Select framework:react
+Select varient:Js
+
+3. npm i react-router.dom
