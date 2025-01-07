@@ -362,3 +362,20 @@ Select framework:react
 Select varient:Js
 
 3. npm i react-router.dom
+
+
+
+
+# In React, React.lazy() is a function used for lazy loading components .
+
+# Fallback UI:
+
+<!-- The Suspense component requires a fallback prop, which is displayed until the lazy-loaded component is ready. In this case, it's showing Loading... -->
+
+
+
+
+# ErrorBoundry class
+
+
+# diff b/t method and function

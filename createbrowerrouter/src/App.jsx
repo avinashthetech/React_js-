@@ -1,9 +1,14 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Services from "./pages/Services";
-import Contects from "./pages/Contects";
-import About from "./pages/About";
-import Home from "./pages/Home";
-import Layout from "./pages/Layout";
+import { lazy } from "react";
+
+//  Why
+const Home=lazy(()=>import("./pages/Home"))
+const Services=lazy(()=>import("./pages/Services"))
+const About=lazy(()=>import("./pages/About"))
+const Contects=lazy(()=>import("./pages/Contects"))
+const Layout=lazy(()=>import("./pages/Layout"))
+
+
 const App = () => {
   let myRoutes = createBrowserRouter([
     {

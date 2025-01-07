@@ -19,7 +19,9 @@ import { Products1 } from "./customHooks/Products1";
 import  Parent  from "./HOC/Parent";
 import { Profile } from "./context/Profile";
 import { InputUser } from "./context/InputUser";
-import MemoParent from "./memo/MemoParent";
+import MyComponent from "./errorboundries/MyComponent";
+import ErrorBoundry from "./errorboundries/ErrorBoundry";
+// import MemoParent from "./memo/MemoParent";
 
 
 // import { UnControlledForms } from "./forms/UnControlledForms";
@@ -97,7 +99,12 @@ const App = () => {
 
 {/* <Reducer/> */}
 {/* <Parent/> */}
-<MemoParent/>
+{/* <MemoParent/> */}
+<ErrorBoundry>
+<MyComponent/>
+
+</ErrorBoundry>
+
 
     </div>
   );

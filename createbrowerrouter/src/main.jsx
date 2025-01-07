@@ -1,5 +1,9 @@
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import { Suspense } from "react";
 
-import { createRoot } from "react-dom/client"
-import App from "./App"
-
-createRoot(document.getElementById('root')).render(<App/>)
+createRoot(document.getElementById("root")).render(
+  <Suspense fallback={<h1>Loading ....</h1>}>
+    <App />
+  </Suspense>
+);

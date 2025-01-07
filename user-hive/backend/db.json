@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Avi"
+    },
+    {
+      "id": "8c31",
+      "username": "mna  ",
+      "useremail": "a@m.com",
+      "userpassword": "mnknkl",
+      "phone": "1234567890",
+      "gender": "Male",
+      "dob": "2025-01-16",
+      "agreement": true,
+      "": true
+    },
+    {
+      "id": "4e24",
+      "username": "padam",
+      "useremail": "k@gmail.com",
+      "userpassword": "ppp",
+      "phone": "1209888288",
+      "gender": "Male",
+      "dob": "2025-01-01",
+      "agreement": true
+    },
+    {
+      "id": "b58d",
+      "username": "jnnjqlw",
+      "useremail": "lnln@gmail.com",
+      "userpassword": "mkkk",
+      "phone": "1122334455",
+      "gender": "Female",
+      "dob": "2025-01-01",
+      "agreement": true
+    },
+    {
+      "id": "0907",
+      "username": "avi",
+      "useremail": "avin@12gma.com",
+      "userpassword": "lloos",
+      "phone": "0099112233",
+      "gender": "Male",
+      "dob": "2025-01-02",
+      "agreement": true
+    },
+    {
+      "id": "db34",
+      "username": "lnldcn",
+      "useremail": "j@hm.com",
+      "userpassword": "pass",
+      "phone": "1234567890",
+      "gender": "Male",
+      "dob": "2025-01-21",
+      "agreement": true
+    }
+  ]
+}

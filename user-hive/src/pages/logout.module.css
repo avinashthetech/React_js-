@@ -1,0 +1,64 @@
+.login{
+    background-color: yellow;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: -15px 15px rgba(247, 183, 45, 0.92);
+}
+
+
+.picimg{
+    /* background-color: red; */
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.pic{
+    width:100px ;
+    height: 100px;
+    border-radius: 75%;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+label{
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"]{
+    padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: 4px 4px rgba(240, 236, 236, 0.92);
+}
+
+.btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .checkdiv{
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
